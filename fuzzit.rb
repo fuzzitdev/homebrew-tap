@@ -2,15 +2,15 @@
 class Fuzzit < Formula
   desc "Continuous Fuzzing Made Simple."
   homepage "https://fuzzit.dev"
-  version "2.4.34"
+  version "2.4.35"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/fuzzitdev/fuzzit/releases/download/v2.4.34/fuzzit_Darwin_x86_64.zip"
-    sha256 "4f9edfa5abce6361e89ea7cd0f0102d59ef5200ba10ce8c676d551584e2098af"
+    url "https://github.com/fuzzitdev/fuzzit/releases/download/v2.4.35/fuzzit_Darwin_x86_64.zip"
+    sha256 "fb6d21834a8aab629b1ee560f786223ccb1a9d2aa4385545b8887e906f734776"
   elsif OS.linux?
-    url "https://github.com/fuzzitdev/fuzzit/releases/download/v2.4.34/fuzzit_Linux_x86_64.zip"
-    sha256 "bd28a85ef4189ea08c7acd9aa6f987d1a21085d6efdd902909a9eb333976a8fc"
+    url "https://github.com/fuzzitdev/fuzzit/releases/download/v2.4.35/fuzzit_Linux_x86_64.zip"
+    sha256 "c5cc84cfb17dd40b98945edff714df7d97eea397a9dde3b60186e31ded5d2189"
   end
 
   def install
