@@ -2,16 +2,16 @@
 class Fuzzit < Formula
   desc "Continuous Fuzzing Made Simple."
   homepage "https://fuzzit.dev"
-  version "2.4.52"
+  version "2.4.53"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/fuzzitdev/fuzzit/releases/download/v2.4.52/fuzzit_Darwin_x86_64.zip"
-    sha256 "2c37e99b591aa985630c8a6a6e839e9e000b4c2d4f3fde1781080766d685d9e1"
+    url "https://github.com/fuzzitdev/fuzzit/releases/download/v2.4.53/fuzzit_Darwin_x86_64.zip"
+    sha256 "7149f894c39e1568112f23c5997102ceb19b83e72a9550d3d5a4f8b2e9e67dc4"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/fuzzitdev/fuzzit/releases/download/v2.4.52/fuzzit_Linux_x86_64.zip"
-      sha256 "73e6068c1ab3a26faa808c11e252cec2ae980211ce613122cf8eaa79a6b9a7a3"
+      url "https://github.com/fuzzitdev/fuzzit/releases/download/v2.4.53/fuzzit_Linux_x86_64.zip"
+      sha256 "959e172cf0a18f745f53eb59edcd71b3dae2bc2ed16e6d994fa37cc6dcee0cd7"
     end
   end
 
